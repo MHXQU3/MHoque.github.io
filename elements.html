@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Minhaz Hoque's Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .certificate { display: block; } /* Show all certificates by default */
+
+        /* Style for the dropdown */
+        .dropdown-container {
+            margin: 20px 0; /* Adjust the margin as needed */
+        }
+
+        #topicSelect {
+            width: 100%; /* Full width */
+            padding: 10px; /* Padding for better appearance */
+            font-size: 1em; /* Font size */
+            border: 1px solid #ccc; /* Border style */
+            border-radius: 5px; /* Rounded corners */
+            -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+            -moz-appearance: none; /* Remove default styling in Firefox */
+            appearance: none; /* Remove default styling */
+            background: white url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="black" d="M2 0L0 2h4L2 0zM0 3l2 2 2-2H0z"/></svg>') no-repeat right 10px center;
+            background-size: 12px 12px; /* Size of the arrow */
+        }
+
+        /* Style for the dropdown container to ensure the arrow is on top */
+        .dropdown-container {
+            position: relative;
+            display: inline-block;
+            width: 100%; /* Full width */
+        }
+
+        /* Additional style to ensure the dropdown arrow is clickable */
+        #topicSelect::-ms-expand {
+            display: none; /* Remove the default dropdown arrow in Internet Explorer */
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a class="logo">MINHAZ HOQUE</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">All About Me</a></li>
+                <li><a href="generic.html">Project Portfolio</a></li>
+                <li class="active"><a href="elements.html">Certifications</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Post -->
+            <!-- Featured Post -->
+            <article class="post featured" id="bio">
+                <header class="major">
+                    <span class="date">March 21, 2024</span>
+                    <h1>This is my<br />
+                        Certifications Page</h1>
+                    <p>This page contains all the certificates I have earned as I was learning all the skills required to be a data analyst.<br>
+                    You can view them all below or you can choose to filter by the language/skill in the dropdown menu below.</p>
+                </header>
+                <a class="image main"><img src="images/cert-stock.jpg" alt="" /></a>
+                <ul class="actions special">
+                </ul>
+            </article>
+
+            <!-- Dropdown for Topics -->
+            <div class="dropdown-container">
+                <label for="topicSelect">Select Topic:</label>
+                <select id="topicSelect">
+                    <option value="all">All</option>
+                    <option value="python">Python</option>
+                    <option value="sql">SQL</option>
+                    <option value="data">Full Data Analysis</option>
+                </select>
+            </div>
+
+            <!-- Certificates List -->
+            <section class="posts" id="certifications">
+                <article class="certificate" data-topic="data">
+                    <header>
+                        <span class="date">April 11, 2017</span>
+                        <h2><a>Data Analyst Course:<br />
+                            Complete Bootcamp</a></h2>
+                    </header>
+                    <a class="image fit"><img src="images/IMG_UDAB.jpg" alt="" /></a>
+                    <p>I completed a data analyst course that focused on bridging the gap between academic training and real-world job skills. The course covered essential topics such as data cleaning, preprocessing, and visualization using Python, NumPy, and Pandas. I learned to work with raw data, collect data from APIs, and create meaningful visualizations. The hands-on approach included practical exercises and a final project, ensuring a thorough understanding of data analytics and preparing me for real-world tasks. This comprehensive training equipped me with the skills needed to excel as a data analyst.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.udemy.com/certificate/UC-5aeafee0-390e-44cb-91ac-49f36735915e/" class="button">Link to Certification Page</a></li>
+                    </ul>
+                </article>
+                <article class="certificate" data-topic="sql">
+                    <header>
+                        <span class="date">April 11, 2017</span>
+                        <h2><a>SQL: Complete Bootcamp<br />
+                            Zero to Hero</a></h2>
+                    </header>
+                    <a class="image fit"><img src="images/IMG_U02H.jpeg" alt="" /></a>
+                    <p>I completed a comprehensive SQL course where I learned to read and write complex queries using PostgreSQL, with skills applicable to other major SQL databases such as MySQL and Microsoft SQL Server. The course covered fundamental SQL syntax, advanced queries, aggregate functions, and logical operators. I also gained experience in creating tables and databases, as well as using Python to further advance my SQL skills. The interactive course provided hands-on experience with real-world challenges, significantly enhancing my proficiency in SQL for data analysis and business intelligence.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.udemy.com/certificate/UC-cb1f786e-0f1f-48e4-9dea-7708150851df/" class="button">Link to Certification Page</a></li>
+                    </ul>
+                </article>
+                <article class="certificate" data-topic="python">
+                    <header>
+                        <span class="date">April 24, 2017</span>
+                        <h2><a>Introduction<br />
+                            To Python</a></h2>
+                    </header>
+                    <a class="image fit"><img src="images/IMG_I2Py.jpeg" alt="" /></a>
+                    <p>In the Introduction to Python course, I built a strong foundation in programming with Python. The course began with essential topics like writing code, memory management, and working with variables, followed by handling text and numerical data. I explored debugging techniques, standards, and best practices to write clean, efficient code. Practical exercises included developing a chatbot and a messaging app. I also learned about data types, type checking, and data conversion, alongside control flow constructs such as loops and conditional statements. The course concluded with a focus on lists, functions, and custom functions, equipping me with the skills to solve real-world problems and implement functional programming concepts.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.sololearn.com/en/certificates/CC-WOHVTDGI" class="button">Link to Certification Page</a></li>
+                    </ul>
+                </article>
+                <article class="certificate" data-topic="python">
+                    <header>
+                        <span class="date">April 22, 2017</span>
+                        <h2><a>Python<br />
+                            Intermediate</a></h2>
+                    </header>
+                    <a class="image fit"><img src="images\IMG_PyIn.jpeg" alt="" /></a>
+                    <p>In the Python Intermediate course, I expanded my programming skills by exploring advanced concepts and techniques. The course covered tuples, sets, and dictionaries, including how to work with these data structures effectively. It introduced list comprehensions for more concise code and detailed error handling with exceptions. Functional programming was another key focus, with lessons on lambda expressions, map and filter functions, and decorators. The course also delved into object-oriented programming, including inheritance, data hiding, and methods. This training enhanced my ability to write more efficient and organized Python code, preparing me for more complex programming challenges.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.sololearn.com/en/certificates/CC-0SY1DC7W" class="button">Link to Certification Page</a></li>
+                    </ul>
+                </article>
+                <article class="certificate" data-topic="data">
+                    <header>
+                        <span class="date">April 18, 2017</span>
+                        <h2><a>Coding<br />
+                            For Data</a></h2>
+                    </header>
+                    <a class="image fit"><img src="images/IMG_CFDa.jpeg" alt="" /></a>
+                    <p>In the Coding for Data course, I acquired essential skills in both Python programming and SQL. The course covered fundamental Python concepts, including variables, data types, control flow, and functions. It also delved into more advanced topics such as debugging, applying best practices, and handling different data types. On the SQL side, I learned to execute queries, work with relational databases, and perform data analysis through sorting, filtering, and pattern matching. This course provided a comprehensive foundation in coding for data analysis, preparing me to effectively handle and manipulate data in real-world scenarios.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.sololearn.com/en/certificates/CC-QWNOFAUS" class="button">Link to Certification Page</a></li>
+                    </ul>
+                </article>
+                <article class="certificate" data-topic="sql">
+                    <header>
+                        <span class="date">April 14, 2017</span>
+                        <h2><a>SQL<br />
+                            Intermediate</a></h2>
+                    </header>
+                    <a class="image fit"><img src="images/IMG_SQLI.jpeg" alt="" /></a>
+                    <p>In the SQL Intermediate course, I deepened my understanding of data manipulation and querying techniques. The course began with string functions, mathematical operations, and aggregate functions, followed by a comprehensive look at the CASE statement for conditional logic. It covered essential table constraints, including identity columns, primary and foreign keys, and unique constraints to enforce data integrity. Additionally, I learned to work with multiple tables using various join types and the UNION operator to combine results. The course culminated in applying these skills to real-world queries, such as calculating averages and handling complex data relationships.</p>
+                    <ul class="actions special">
+                        <li><a href="https://www.sololearn.com/en/certificates/CC-P4ROTLJA" class="button">Link to Certification Page</a></li>
+                    </ul>
+                </article>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Address</h3>
+                    <p>Birmingham, B20</p>
+                </section>
+                <section>
+                    <h3>Phone</h3>
+                    <p><a href="#">+44 7455 799</a></p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="#">mi8ho7575@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.getElementById('topicSelect').addEventListener('change', function() {
+            var selectedTopic = this.value;
+            var certificates = document.querySelectorAll('.certificate');
+            
+            certificates.forEach(function(certificate) {
+                if (selectedTopic === 'all' || certificate.dataset.topic === selectedTopic) {
+                    certificate.style.display = 'block'; // Show the certificate
+                } else {
+                    certificate.style.display = 'none'; // Hide the certificate
+                }
+            });
+        });
+
+        // Trigger change event on page load to display all certificates
+        document.getElementById('topicSelect').dispatchEvent(new Event('change'));
+    </script>
+</body>
+</html>

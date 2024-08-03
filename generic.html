@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Minhaz Hoque's Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.project-description {
+				display: none;
+			}
+		</style>
+		<style>
+			.spacing {
+				margin-top: 20px; /* Adjust the value as needed for your desired space */
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">MINHAZ HOQUE</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">All About Me</a></li>
+							<li class="active"><a href="generic.html">Project Portfolio</a></li>
+							<li><a href="elements.html">Certifications</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<!-- Featured Post -->
+							<article class="post featured" id="bio">
+								<header class="major">
+									<span class="date">March 21, 2024</span>
+									<h1>This is my<br />
+									Portfolio Page</h1>
+									<p>This page contains all the projects I have worked on, with some details explaining what they each do.</p>
+								</header>
+							</article>
+							
+							<section class="posts" id="projects1">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a>Python<br />Projects</a></h2>
+									</header>
+									<a class="image fit"><img src="images/python-logo1.png.jpg" alt="" /></a>
+									<p id="python-general" class="general-description">Here you will find a repository of all the Python projects I have completed. Some of these display basic Python capabilities, while others demonstrate more advanced Python skills.</p>
+									<select onchange="showDescription('python', this.value)">
+										<option value="">Select a project</option>
+										<option value="project1">Camera Vision RPS</option>
+										<option value="project2">Webscraper</option>
+										<option value="project3">File Organiser</option>
+										<option value="project4">Hangman</option>
+										<option value="project5">BMI Calculator</option>
+									</select>
+									<div id="python-project1" class="project-description">
+										<p>This project allows the user to play Rock, Paper, Scissors using a trained machine learning model and a device camera to capture user input. Users make hand gestures representing rock, paper, or scissors, which the model recognizes. The class includes methods for capturing the user's gesture, making a prediction using the model, and determining the game's outcome. The project demonstrates skills in machine learning model integration, computer vision with OpenCV, real-time video processing, and game logic implementation in Python.</p>
+									</div>
+									<div id="python-project2" class="project-description">
+										<p>This project focuses on webscraping, which is useful for extracting information from  web pages. Once it receives a URL, it fetches content from the web page and parses it using the BS4 module. This project in particular extracts team stats of NHL teams since 1990. This project showcases skills in web scraping, HTML parsing, error handling, and data extraction, demonstrating the ability to automate the collection of web-based data efficiently.</p>
+									</div>
+									<div id="python-project3" class="project-description">
+										<p>In this project I have created a file organising class which is designed to organize files in a specified directory by their extensions. The program begins by listing all file extensions in the directory and creates corresponding folders for each unique extension. It then sorts the files into these folders based on their extensions. The class demonstrates capabilities in file system navigation, directory creation, and file manipulation using Python's os and shutil libraries. This project showcases my proficiency in automating tasks, handling file operations, and working with Python's built-in libraries. In this folder you will also find the notebook where I created drafts and essentially used it as a sandbox for this project.</p>
+									</div>
+									<div id="python-project4" class="project-description">
+										<p>This project is the Hangman game everybody knows and loves. It initializes with a list of words that the user can change as they wish, with a set number of lives. The class includes methods to check if a guessed letter is in the chosen word, update the word display, track the guessed letters, and reduce lives for incorrect guesses. The game features a visual representation of the hangman state and handles user input to ensure valid guesses. This project showcases skills in game logic development, user interaction handling, and basic graphics representation in text form.</p>
+									</div>
+									<div id="python-project5" class="project-description">
+										<p>In this project, I developed a Python class that calculates Body Mass Index (BMI) and categorizes the result into weight groups. The program begins by prompting the user to input their height and weight, with error handling to ensure valid inputs. It then calculates the BMI and prints the result. Finally, the program evaluates the BMI and assigns it to a category: underweight, healthy range, overweight, obese, or severely obese. This project demonstrates my skills in user input handling, mathematical computation, and conditional logic.</p>
+									</div>
+									<ul class="actions special spacing">
+										<li><a href="https://github.com/MHXQU3/PythonProjects" class="button">Link to GitHub Repo</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2><a>SQL<br />Projects</a></h2>
+									</header>
+									<a class="image fit"><img src="images/sql-logo1.png" alt="" /></a>
+									<p id="sql-general" class="general-description">Here you will find a repository of all the SQL projects I have completed. Some of these display basic SQL capabilities, while others demonstrate more advanced SQL skills.</p>
+									<select onchange="showDescription('sql', this.value)">
+										<option value="">Select a project</option>
+										<option value="project1">Project 1</option>
+									</select>
+									<div id="sql-project1" class="project-description">
+										<p>Detailed description of SQL Project 1.</p>
+									</div>
+									<ul class="actions special spacing">
+										<li><a href="https://github.com/MHXQU3/SQLProjects" class="button">Link to GitHub Repo</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 18, 2017</span>
+										<h2><a>Power BI<br />Projects</a></h2>
+									</header>
+									<a class="image fit"><img src="images/powerbi-logo.png" alt="" /></a>
+									<p id="pbi-general" class="general-description">Power BI projects I have completed, all of which require understanding of DAX. Each folder includes the raw dataset as well as the dashboards created in Power BI.</p>
+									<select onchange="showDescription('pbi', this.value)">
+										<option value="">Select a project</option>
+										<option value="project1">Project 1</option>
+										<option value="project2">Project 2</option>
+									</select>
+									<div id="pbi-project1" class="project-description">
+										<p>Detailed description of Power BI Project 1.</p>
+									</div>
+									<div id="pbi-project2" class="project-description">
+										<p>Detailed description of Power BI Project 2.</p>
+									</div>
+									<ul class="actions special spacing">
+										<li><a href="https://github.com/MHXQU3/PowerBi" class="button">Link to GitHub Repo</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a>Tableau<br />
+										Dashboards</a></h2>
+									</header>
+									<a class="image fit"><img src="images/tableau-Logo.png" alt="" /></a>
+									<p id="tableau-general" class="general-description">In this section, you will find a repository of all the Tableau projects I have completed. These projects showcase my ability to create interactive and dynamic dashboards that provide valuable insights. Each project includes detailed visualizations, demonstrating my proficiency in data analysis and storytelling with Tableau. Through these projects, I have utilized various data sources and applied advanced techniques to transform raw data into meaningful insights.</p>
+									<select onchange="showDescription('tableau', this.value)">
+										<option value="">Select a project</option>
+										<option value="project1">Project 1</option>
+									</select>
+									<div id="tableau-project1" class="project-description">
+										<p>Detailed description of Power BI Project 1.</p>
+									</div>
+									<ul class="actions special spacing">
+										<li><a href="https://public.tableau.com/app/profile/minhaz.hoque/vizzes" class="button">Link to Tableau Public</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a>Excel<br />
+										Projects</a></h2>
+									</header>
+									<a class="image fit"><img src="images/pic13.png" alt="" /></a>
+									<p id="excel-general" class="general-description">A repository that houses a few Excel Projects. These include making a dashboard. As Excel is pretty basic with regards to data analysis, only one full project was carried out. However, I have included a spreadsheet which displays quite a few Excel skills a data analyst would require.</p>
+									<select onchange="showDescription('excel', this.value)">
+										<option value="">Select a project</option>
+										<option value="project1">Project 1</option>
+										<option value="project2">Project 2</option>
+									</select>
+									<div id="excel-project1" class="project-description">
+										<p>Detailed description of Excel Project 1.</p>
+									</div>
+									<div id="excel-project2" class="project-description">
+										<p>Detailed description of Excel Project 2.</p>
+									</div>
+									<ul class="actions special spacing">
+										<li><a href="https://github.com/MHXQU3/ExcelProjects" class="button">Link to GitHub Repo</a></li>
+									</ul>
+								</article>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p>Birmingham, B20</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">+44 7455 799</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">mi8ho7575@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				function showDescription(skill, project) {
+					// Hide all project descriptions
+					const descriptions = document.querySelectorAll('.project-description');
+					descriptions.forEach(description => description.style.display = 'none');
+		
+					// Hide all general descriptions
+					const generalDescriptions = document.querySelectorAll('.general-description');
+					generalDescriptions.forEach(general => general.style.display = 'block');
+		
+					// Show the selected project description
+					if (project) {
+						const selectedDescription = document.getElementById(`${skill}-${project}`);
+						if (selectedDescription) {
+							selectedDescription.style.display = 'block';
+							// Hide the general description for the current skill
+							const generalDescription = document.getElementById(`${skill}-general`);
+							if (generalDescription) {
+								generalDescription.style.display = 'none';
+							}
+						}
+					}
+				}
+		
+				// Initial call to display general descriptions
+				showDescription('python', '');
+				showDescription('sql', '');
+				showDescription('pbi', '');
+				showDescription('tableau', '');
+				showDescription('excel', '');
+			</script>
+
+	</body>
+</html>
