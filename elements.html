@@ -44,6 +44,35 @@
             display: none; /* Remove the default dropdown arrow in Internet Explorer */
         }
     </style>
+    <style>
+			.dropdown-menu {
+				padding: 0.5em; /* Adjust padding as needed */
+				font-size: 1em; /* Adjust font size as needed */
+			}
+
+			/* CSS for the dropdown toggle button */
+			.dropdown-toggle {
+				padding: 0.5em; /* Adjust padding as needed */
+				font-size: 1em; /* Adjust font size as needed */
+			}
+
+			/* Optional: Adjust for mobile view */
+			@media (max-width: 767px) {
+				.dropdown-menu {
+					padding: 0.75em; /* Increase padding for mobile view */
+					font-size: 1.1em; /* Increase font size for mobile view */
+				}
+
+				.dropdown-toggle {
+					padding: 0.75em; /* Increase padding for mobile view */
+					font-size: 1.1em; /* Increase font size for mobile view */
+				}
+			}
+
+			.dropdown-menu, .dropdown-toggle {
+				box-sizing: border-box;
+			}
+		</style>
 </head>
 <body class="is-preload">
 
