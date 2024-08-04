@@ -20,9 +20,9 @@
         }
 
         #topicSelect {
-            width: 100%; /* Full width */
+            width: 200px; /* Full width */
             padding: 10px; /* Padding for better appearance */
-            font-size: 1em; /* Font size */
+            font-size: 16px; /* Font size */
             border: 1px solid #ccc; /* Border style */
             border-radius: 5px; /* Rounded corners */
             -webkit-appearance: none; /* Remove default styling in WebKit browsers */
@@ -45,34 +45,34 @@
         }
     </style>
     <style>
-			.dropdown-menu {
-				padding: 0.5em; /* Adjust padding as needed */
-				font-size: 1em; /* Adjust font size as needed */
-			}
+	.dropdown-menu {
+		padding: 0.5em; /* Adjust padding as needed */
+		font-size: 1em; /* Adjust font size as needed */
+	}
 
-			/* CSS for the dropdown toggle button */
-			.dropdown-toggle {
-				padding: 0.5em; /* Adjust padding as needed */
-				font-size: 1em; /* Adjust font size as needed */
-			}
+	/* CSS for the dropdown toggle button */
+	.dropdown-toggle {
+		padding: 0.5em; /* Adjust padding as needed */
+		font-size: 1em; /* Adjust font size as needed */
+	}
 
-			/* Optional: Adjust for mobile view */
-			@media (max-width: 767px) {
-				.dropdown-menu {
-					padding: 0.75em; /* Increase padding for mobile view */
-					font-size: 1.1em; /* Increase font size for mobile view */
-				}
+	/* Optional: Adjust for mobile view */
+	@media (max-width: 767px) {
+		.dropdown-menu {
+			padding: 0.75em; /* Increase padding for mobile view */
+			font-size: 1.1em; /* Increase font size for mobile view */
+		}
 
-				.dropdown-toggle {
-					padding: 0.75em; /* Increase padding for mobile view */
-					font-size: 1.1em; /* Increase font size for mobile view */
-				}
-			}
+		.dropdown-toggle {
+			padding: 0.75em; /* Increase padding for mobile view */
+			font-size: 1.1em; /* Increase font size for mobile view */
+		}
+	}
 
-			.dropdown-menu, .dropdown-toggle {
-				box-sizing: border-box;
-			}
-		</style>
+	.dropdown-menu, .dropdown-toggle {
+		box-sizing: border-box;
+	}
+</style>
 </head>
 <body class="is-preload">
 
@@ -118,7 +118,7 @@
             <!-- Dropdown for Topics -->
             <div class="dropdown-container">
                 <label for="topicSelect">Select Topic:</label>
-                <select id="topicSelect" style="margin-bottom: 20px;">
+                <select id="topicSelect" style="margin-bottom: 20px; width: 250px;">
                     <option value="all">All</option>
                     <option value="python">Python</option>
                     <option value="sql">SQL</option>
