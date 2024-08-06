@@ -132,10 +132,14 @@
 									<p id="sql-general" class="general-description">Here you will find a repository of all the SQL projects I have completed. Some of these display basic SQL capabilities, while others demonstrate more advanced SQL skills.</p>
 									<select onchange="showDescription('sql', this.value)">
 										<option value="">Select a project</option>
-										<option value="project1">Project 1</option>
+										<option value="project1">Data Cleaning Project</option>
+										<option value="project2">Exploratory Data Analysis</option>
 									</select>
 									<div id="sql-project1" class="project-description">
-										<p>Detailed description of SQL Project 1.</p>
+										<p>This SQL data cleaning project works as a preface to the subsequent project and does an early stage refining a layoffs dataset through steps such as removing duplicates, standardizing data, eliminating NULLs, and dropping unnecessary columns. A staging table is used to maintain the integrity of the raw data while transformations are applied. Key techniques include using ROW_NUMBER() for deduplication and ensuring consistent data formats. The cleaned data is stored in the layoffs_staging table, ready for further analysis. This systematic approach ensures the dataset is accurate, consistent, and optimized for querying.</p>
+									</div>
+									<div id="sql-project2" class="project-description">
+										<p>This SQL project performs exploratory data analysis on layoffs, using the set-up from the previous project. Here, I use techniques like CTEs, aggregate functions, and window functions to explore trends in the table, revealing key insights such as the maximum layoffs of 12,000, industry distribution, and geographic disparities. CTEs and functions like SUM, AVG, and ROW_NUMBER help analyze data by industry, company, and time. The project demonstrates SQL skills in data retrieval, aggregation, and transformation, providing insights into layoff trends and their implications.</p>
 									</div>
 									<ul class="actions special spacing">
 										<li><a href="https://github.com/MHXQU3/SQLProjects" class="button">Link to GitHub Repo</a></li>
@@ -150,14 +154,14 @@
 									<p id="pbi-general" class="general-description">Power BI projects I have completed, all of which require understanding of DAX. Each folder includes the raw dataset as well as the dashboards created in Power BI.</p>
 									<select onchange="showDescription('pbi', this.value)">
 										<option value="">Select a project</option>
-										<option value="project1">Project 1</option>
-										<option value="project2">Project 2</option>
+										<option value="project1">Plant Database</option>
+										<option value="project2">Project 1</option>
 									</select>
 									<div id="pbi-project1" class="project-description">
-										<p>Detailed description of Power BI Project 1.</p>
+										<p>This Power BI project focused on creating a condensed, dynamic performance report which capitalised and made use of switch measures and conditional formatting. This project also had a heavy amount of DAX involved to create calculated columns and various other measures that would go on to aid in creating this final report.</p>
 									</div>
 									<div id="pbi-project2" class="project-description">
-										<p>Detailed description of Power BI Project 2.</p>
+										<p>This Power BI report is based on a YouTube survey taken which asked viewers career-focused, demographic questions. These questions were mainly targeted at viewers who had intentions of transitioning into data, and other future career aspirations they had. Unlike the plant database report which was heavily business focused, this was more focused on visualising data so one can get a good spread of what their viewers think about their current careers and what they hope for the future when it comes to data-centric careers. As this was a survey which involved various open-ended questions, heavy amounts of data-cleaning was required which followed a lot of data standardisation. A final report was created which displays all the relevant information in an aesthetically pleasing, easy to read format.</p>
 									</div>
 									<ul class="actions special spacing">
 										<li><a href="https://github.com/MHXQU3/PowerBi" class="button">Link to GitHub Repo</a></li>
@@ -173,10 +177,10 @@
 									<p id="tableau-general" class="general-description">In this section, you will find a repository of all the Tableau projects I have completed. These projects showcase my ability to create interactive and dynamic dashboards that provide valuable insights. Each project includes detailed visualizations, demonstrating my proficiency in data analysis and storytelling with Tableau. Through these projects, I have utilized various data sources and applied advanced techniques to transform raw data into meaningful insights.</p>
 									<select onchange="showDescription('tableau', this.value)">
 										<option value="">Select a project</option>
-										<option value="project1">Project 1</option>
+										<option value="project1">AirBnB Dashboard</option>
 									</select>
 									<div id="tableau-project1" class="project-description">
-										<p>Detailed description of Power BI Project 1.</p>
+										<p>This tableau project focuses on Air BnB dataset from Seattle. The dataset was comprised of 3 sheets. Listings, including full descriptions and average review score, Reviews, including unique id for each reviewer and detailed comments, and Calendar, including listing id and the price and availability for that day. This project involved me taking this data and presenting it in a visually appealing format, so any potential listers can see what the best avenue for them to go down is: What zipcode should they start leasing in? What is the best week to list their properties? How does bedroom availability and price fluctuate within zipcodes, and other various questions of the like are answered.</p>
 									</div>
 									<ul class="actions special spacing">
 										<li><a href="https://public.tableau.com/app/profile/minhaz.hoque/vizzes" class="button">Link to Tableau Public</a></li>
@@ -192,14 +196,14 @@
 									<p id="excel-general" class="general-description">A repository that houses a few Excel Projects. These include making a dashboard. As Excel is pretty basic with regards to data analysis, only one full project was carried out. However, I have included a spreadsheet which displays quite a few Excel skills a data analyst would require.</p>
 									<select onchange="showDescription('excel', this.value)">
 										<option value="">Select a project</option>
-										<option value="project1">Project 1</option>
-										<option value="project2">Project 2</option>
+										<option value="project1">Excel Full Project Workbook</option>
+										<option value="project2">Bike Sales Edited</option>
 									</select>
 									<div id="excel-project1" class="project-description">
-										<p>Detailed description of Excel Project 1.</p>
+										<p>This Excel project involved analysing a survey from various bike buyers with a heavy focus on both demographic and socioeconomic factors which would influence their purchasing decisions. Only a small amount of data cleaning was required, as the answers were multiple choice. However, standardisation was still required, even data categorisation with some columns were required. The final stage was the creation of an aesthetically pleasing report, with numerous visualisations and pivot tables, with slicers to allow the reader to filter data as they wish.</p>
 									</div>
 									<div id="excel-project2" class="project-description">
-										<p>Detailed description of Excel Project 2.</p>
+										<p>This is not a project, however it is a starting point to the above full project. Something which displays my skill in creating pivot tables, a very useful skill for a data analyst to have.</p>
 									</div>
 									<ul class="actions special spacing">
 										<li><a href="https://github.com/MHXQU3/ExcelProjects" class="button">Link to GitHub Repo</a></li>
@@ -218,11 +222,11 @@
 						</section>
 						<section>
 							<h3>Phone</h3>
-							<p><a href="#">+44 7455 799</a></p>
+							<p><a href="#">+44 7455 799461</a></p>
 						</section>
 						<section>
 							<h3>Email</h3>
-							<p><a href="#">mi8ho7575@gmail.com</a></p>
+							<p><a href="#">mhoque2099@gmail.com</a></p>
 						</section>
 						<section>
 							<h3>Social</h3>
