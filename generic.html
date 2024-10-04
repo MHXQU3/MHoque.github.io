@@ -94,17 +94,41 @@
 									<p id = "cwo-general" class="general-description">Here is what I am currently working on. Click the link below as the repository will be updated live as any changes I make are automatically pushed to GitHub.</p>
 									<select onchange="showDescription('cwo', this.value)">
 										<option value="">Select a project</option>
-										<option value="project1">Multinational Retail Data Centralisation</option>
+										<option value="project1">Finance Exploratory Data Analysis</option>
 									</select>
 									<div id="cwo-project1" class="project-description">
-										<p>This project involves consolidating dispersed sales data into a single, centralized database using AWS services to create a unified source of truth. AWS tools will facilitate data storage and management, while Python with libraries like Pandas will be used for data manipulation and analysis. SQL will be employed to query the database and generate up-to-date business metrics. This integration streamlines data access, ensures consistency, and enhances the ability to derive actionable insights. Overall, the approach simplifies data management and improves decision-making capabilities.</p>
+										<p>A custom Python class was designed using SQLAlchemy to extract data from an RDS database, followed by ETL and data cleaning on a financial loans dataset containing 54,000 records. The data was prepared using Pandas, which involved cleaning 40 columns, imputing missing values, removing outliers, and transforming skewed data. Additionally, 10 business questions were addressed through data exploration and visualizations.</p>
 									</div>
 									<ul class="actions special spacing">
-										<li><a href="https://github.com/MHXQU3/mrdc" class="button">Link to GitHub Repo</a></li>
+										<li><a href="https://github.com/MHXQU3/Finance-EDA" class="button">Link to GitHub Repo</a></li>
 									</ul>
 								</article>
 							
 							<section class="posts" id="projects1">
+								<article>
+									<header>
+										<h2><a>Data Analyst<br />Projects</a></h2>
+									</header>
+									<a class="image fit"><img src="images\da-logo-2.jpg" alt="" /></a>
+									<p id="da-general" class="general-description">A compilation of end-to-end analyst projects I have undertaken. As these include a mixture of the other languages and tools in this page, they have their own respective section.</p>
+									<select onchange="showDescription('da', this.value)">
+										<option value="">Select a project</option>
+										<option value="project1">Multinational Retail Data Centralisation</option>
+										<option value="project2">Finance Exploratory Data Analysis</option>
+									</select>
+									<div id="da-project1" class="project-description">
+										<p>This project involves consolidating dispersed sales data into a single, centralized database using AWS services to create a unified source of truth. AWS tools will facilitate data storage and management, while Python with libraries like Pandas will be used for data manipulation and analysis. SQL will be employed to query the database and generate up-to-date business metrics. This integration streamlines data access, ensures consistency, and enhances the ability to derive actionable insights. Overall, the approach simplifies data management and improves decision-making capabilities.</p>
+										<ul class="actions special spacing">
+											<li><a href="https://github.com/MHXQU3/mrdc" class="button">Link to GitHub Repo</a></li>
+										</ul>
+									</div>
+									<div id="da-project2" class="project-description">
+										<p>A custom Python class was designed using SQLAlchemy to extract data from an RDS database, followed by ETL and data cleaning on a financial loans dataset containing 54,000 records. The data was prepared using Pandas, which involved cleaning 40 columns, imputing missing values, removing outliers, and transforming skewed data. Additionally, 10 business questions were addressed through data exploration and visualizations.</p>
+										<ul class="actions special spacing">
+											<li><a href="https://github.com/MHXQU3/Finance-EDA" class="button">Link to GitHub Repo</a></li>
+										</ul>
+									</div>
+								</article>
 								<article>
 									<header>
 										<h2><a>Python <br />Projects</a></h2>
@@ -289,6 +313,7 @@
 				}
 		
 				// Initial call to display general descriptions
+				showDescription('da', '');
 				showDescription('python', '');
 				showDescription('sql', '');
 				showDescription('pbi', '');
